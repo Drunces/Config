@@ -1,0 +1,21 @@
+[color]
+  ui = true
+[core]
+  editor = vi
+[alias]
+  l = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  m = commit -m
+  am = commit -a -m
+  a = add
+  ad = add .
+  au = add -u
+  aa = add --all
+  s = status
+  i = init
+  ps = push
+  pl = pull
+  ca = commit --amend
+  mi = commit -m "init"
+  cl = clone
+  cb = checkout -b
+  c = checkout
