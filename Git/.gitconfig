@@ -1,21 +1,25 @@
+[user]
+  email = vense1023@gmail.com
+  name = Vense Chang
 [color]
   ui = true
-[core]
-  editor = vi
 [alias]
   l = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   m = commit -m
-  am = commit -a -m
+  c = commit -a
   a = add
-  ad = add .
-  au = add -u
-  aa = add --all
   s = status
   i = init
-  ps = push
-  pl = pull
-  ca = commit --amend
+  p = push
+  d = diff
+  cc = checkout
+  ss = show
+  pp = pull
+  aa = add .
+  au = add -u
+  ac = add --all
+  ec = commit --amend
   mi = commit -m "init"
   cl = clone
-  cb = checkout -b
-  c = checkout
+  master = checkout master
+  gps = checkout gh-pages
